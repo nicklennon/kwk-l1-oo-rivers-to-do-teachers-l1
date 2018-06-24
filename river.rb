@@ -2,18 +2,10 @@
 
 class River
 
-  attr_accessor :length, :countries, :discharge
+  attr_accessor :name, :length, :countries, :discharge
   
   def initialize(name)
     @name = name
-  end
-
-  def name=(name)
-    @name = name
-  end
-  
-  def name
-    @name
   end
 
   def flood
